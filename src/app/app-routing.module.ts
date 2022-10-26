@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ReactiveFormsComponent } from './components/reactive-forms/reactive-forms.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: FormsComponent },
   { path: 'home', component: HomeComponent },
   { path: 'forms', component: FormsComponent },
   { path: 'reactiveforms', component: ReactiveFormsComponent },
