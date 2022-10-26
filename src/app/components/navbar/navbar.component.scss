@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(5, 5, 65);
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+  color: goldenrod;
+}
+.active a {
+  color: goldenrod;
+}
